@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/style.scss" />
+    <script src="./script.js" defer></script>
+    <title>Gissa rätt nummer!</title>
+  </head>
+  <body>
+    <h1>Gissa rätt nummer!</h1>
+    <h2>Välj ett nummer mellan 1 - 10</h2>
+    <div class="container">
+      <div id="container-player-one">
+        <label for="player-one-input">Spelare 1</label>
+        <input type="number" id="player-one-input" />
+        <button type="button" id="player-one-button">Spara</button>
+      </div>
+      <div id="container-player-two">
+        <label for="user-input">Spelare 2</label>
+        <input type="number" id="player-two-input" />
+        <button type="button" id="player-two-button">Gissa</button>
+      </div>
+    </div>
+
+    <p id="wrong-result"></p>
+    <p id="correct-result"></p>
+    <p id="lives-left"></p>
+    <p id="lives-left-victory"></p>
+    <div class="button__container">
+      <div>
+        <button class="restart-button" id="restart-button">Börja om</button>
+      </div>
+    </div>
+  </body>
+</html>
